@@ -1,0 +1,23 @@
+.btn {
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 12px 44px 12px 44px;
+  transition: 250ms ease;
+}
+.btn.transparent {
+  background-color: transparent;
+}
+.btn.fiolet {
+  background-color: #8b57c2;
+  border: none;
+}
+.btn.fiolet:hover {
+  background-color: #7d4cb1;
+  cursor: pointer;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgba(209, 209, 209, 0.15);
+}
+
+/*# sourceMappingURL=btns.css.map */

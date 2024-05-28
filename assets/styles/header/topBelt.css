@@ -1,0 +1,100 @@
+header .topBelt {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 18px 0 8px 0;
+  font-size: 1rem;
+}
+header .topBelt nav {
+  display: flex;
+  column-gap: 20px;
+  z-index: 99;
+}
+header .topBelt nav a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.95em;
+  line-height: 18px;
+}
+header .topBelt nav.navigation {
+  top: -250px;
+  transition: 500ms ease-in-out;
+}
+@media (max-width: 900px) {
+  header .topBelt nav.navigation {
+    position: fixed;
+    left: 0;
+    width: 80%;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 5px;
+    align-items: center;
+    background: #000000;
+    display: flex;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+  }
+  header .topBelt nav.navigation a {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+  header .topBelt nav.navigation a:hover {
+    cursor: pointer;
+    background: #2a2a2a;
+  }
+}
+@media (max-width: 900px) {
+  header .topBelt nav.navigation.open {
+    top: 0;
+  }
+}
+@media (max-width: 640px) {
+  header .topBelt button {
+    display: none;
+  }
+}
+header .topBelt .hamburger {
+  display: none;
+  background: transparent;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5px;
+}
+@media (max-width: 900px) {
+  header .topBelt .hamburger {
+    display: flex;
+  }
+}
+header .topBelt .hamburger div {
+  width: 30px;
+  height: 2px;
+  background-color: #ffffff;
+  transition: 300ms;
+}
+header .topBelt .hamburger.open div {
+  background-color: #ffffff;
+}
+header .topBelt .hamburger.open div:nth-child(1) {
+  transform: translate(-1px, 3px) rotate(45deg);
+  width: 25px;
+}
+header .topBelt .hamburger.open div:nth-child(2) {
+  width: 0;
+}
+header .topBelt .hamburger.open div:nth-child(3) {
+  width: 25px;
+  transform: translate(-2px, -10px) rotate(-45deg);
+}
+header .topBelt .hamburger:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=topBelt.css.map */

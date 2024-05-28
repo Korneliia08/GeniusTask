@@ -1,0 +1,28 @@
+@import "header/header.css";
+@import "header/topBelt.css";
+@import "ui/btns.css";
+@import "form/form.css";
+@import "header/containerForParts/leftPart.css";
+@import "header/containerForParts/rightPart.css";
+@import "whyNeededAI/wheNeededAi.css";
+@import "footer/bottomBelt.css";
+@import "footer/topPart.css";
+@import "benefitsOfKnowledge/benefitsOfKnowledge.css";
+@import "inWhichAreas/inWhichAreas.css";
+@import "questionsAndAnswers/questionsAndAnswers.css";
+@import "itCourseForYou/itCourseForYou.css";
+@import "aboutTheCourse/aboutTheCourse.css";
+@import "whoConductTraining/whoConductTraining.css";
+@import "whatAwaitYouOnTheCourse/whatAwaitYouOnTheCourse.css";
+@import "weTogether/weTogether.css";
+@import "howIsGoingTraining/howIsGoingTraining.css";
+@import "program/program.css";
+@import "helpInEmployment/helpInEmployment.css";
+@import "trainingPrograms/trainingPrograms.css";
+@import "howUsedAI/howUsedAI.css";
+@import "whatSayingStudets/whatSayingStudets.css";
+@import "fonts.css";
+@import "installmentsWithoutOverpayments/installmentsWithoutOverpayments.css";
+@import "../../style.css";
+
+/*# sourceMappingURL=imports.css.map */

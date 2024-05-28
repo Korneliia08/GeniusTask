@@ -1,0 +1,118 @@
+.wrapper .innerWrapper.footer {
+  padding-top: 120px;
+}
+@media (max-width: 1200px) {
+  .wrapper .innerWrapper.footer {
+    text-align: center;
+  }
+}
+.wrapper .innerWrapper.footer .partTop {
+  padding-bottom: 82px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .wrapper .innerWrapper.footer .partTop {
+    padding-bottom: 10px;
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .wrapper .innerWrapper.footer .partTop {
+    flex-wrap: wrap;
+  }
+}
+.wrapper .innerWrapper.footer .partTop .leftPart .logo img {
+  margin-bottom: 32px;
+  width: 84px;
+}
+.wrapper .innerWrapper.footer .partTop .leftPart .logo img:hover {
+  cursor: pointer;
+}
+.wrapper .innerWrapper.footer .partTop .leftPart .information {
+  margin-bottom: 32px;
+}
+@media (max-width: 500px) {
+  .wrapper .innerWrapper.footer .partTop .leftPart .socialMedias {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.wrapper .innerWrapper.footer .partTop .leftPart .socialMedias img {
+  margin-right: 23px;
+}
+@media (max-width: 500px) {
+  .wrapper .innerWrapper.footer .partTop .leftPart .socialMedias img {
+    margin-right: 0px;
+  }
+}
+.wrapper .innerWrapper.footer .partTop .leftPart .socialMedias img:hover {
+  cursor: pointer;
+}
+.wrapper .innerWrapper.footer .partTop .centerPart {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1200px) {
+  .wrapper .innerWrapper.footer .partTop .centerPart {
+    display: none;
+  }
+}
+.wrapper .innerWrapper.footer .partTop .centerPart h5 {
+  padding-bottom: 20px;
+}
+.wrapper .innerWrapper.footer .partTop .centerPart .partContainer {
+  display: flex;
+  column-gap: 30px;
+}
+.wrapper .innerWrapper.footer .partTop .centerPart .partContainer .leftLinks,
+.wrapper .innerWrapper.footer .partTop .centerPart .partContainer .rightLinks {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.wrapper .innerWrapper.footer .partTop .centerPart .partContainer .leftLinks a:hover,
+.wrapper .innerWrapper.footer .partTop .centerPart .partContainer .rightLinks a:hover {
+  cursor: pointer;
+}
+.wrapper .innerWrapper.footer .partTop .rightPart {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.wrapper .innerWrapper.footer .partTop .rightPart h5 {
+  padding-bottom: 5px;
+}
+@media (max-width: 1200px) {
+  .wrapper .innerWrapper.footer .partTop .rightPart h5 {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .wrapper .innerWrapper.footer .partTop .rightPart {
+    width: 100%;
+    padding: 20px;
+  }
+}
+.wrapper .innerWrapper.footer .partTop .rightPart .linkContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+@media (max-width: 1200px) {
+  .wrapper .innerWrapper.footer .partTop .rightPart .linkContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.wrapper .innerWrapper.footer .partTop .rightPart .linkContainer a {
+  color: #e1e1e1;
+}
+.wrapper .innerWrapper.footer .partTop .rightPart .linkContainer a:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=topPart.css.map */

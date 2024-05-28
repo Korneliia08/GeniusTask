@@ -1,0 +1,83 @@
+.wrapper .innerWrapper.whatAwaitYouOnTheCourse {
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  padding-top: 120px;
+}
+@media (max-width: 700px) {
+  .wrapper .innerWrapper.whatAwaitYouOnTheCourse {
+    margin-bottom: 100px;
+    padding-top: 100px;
+  }
+}
+.wrapper .innerWrapper.whatAwaitYouOnTheCourse .titleOfSection {
+  margin-bottom: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 3em;
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .wrapper .innerWrapper.whatAwaitYouOnTheCourse .titleOfSection {
+    font-size: 28px;
+    margin-bottom: 25px;
+    line-height: 35px;
+  }
+}
+.wrapper .innerWrapper.whatAwaitYouOnTheCourse .containerForCards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+@media (max-width: 1100px) {
+  .wrapper .innerWrapper.whatAwaitYouOnTheCourse .containerForCards {
+    flex-direction: column;
+  }
+}
+.wrapper .innerWrapper.whatAwaitYouOnTheCourse .containerForCards .card {
+  padding: 40px;
+  width: 48%;
+  background-image: url("./../../images/whatAwaitsYouOnCourse/fioletBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  display: flex;
+  column-gap: 30px;
+}
+@media (max-width: 1100px) {
+  .wrapper .innerWrapper.whatAwaitYouOnTheCourse .containerForCards .card {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .wrapper .innerWrapper.whatAwaitYouOnTheCourse .containerForCards .card {
+    column-gap: 10px;
+  }
+}
+.wrapper .innerWrapper.whatAwaitYouOnTheCourse .containerForCards .card .icon {
+  width: 72px;
+  height: 72px;
+}
+@media (max-width: 450px) {
+  .wrapper .innerWrapper.whatAwaitYouOnTheCourse .containerForCards .card .icon {
+    width: 55px;
+    height: 55px;
+  }
+}
+.wrapper .innerWrapper.whatAwaitYouOnTheCourse .containerForCards .card .blockForTitleAndDescription .title {
+  margin-bottom: 12px;
+  color: #8b57c2;
+  line-height: 26px;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+.wrapper .innerWrapper.whatAwaitYouOnTheCourse .containerForCards .card .blockForTitleAndDescription .description {
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 1em;
+}
+
+/*# sourceMappingURL=whatAwaitYouOnTheCourse.css.map */

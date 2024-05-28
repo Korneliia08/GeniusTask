@@ -1,0 +1,15 @@
+header {
+  width: 100%;
+}
+header .containerForParts {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  header .containerForParts {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,91 @@
+.containerForParts .rightPart {
+  flex-grow: 100;
+  margin-top: 60px;
+  max-width: 604px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+@media (max-width: 700px) {
+  .containerForParts .rightPart {
+    margin-top: 30px;
+  }
+}
+.containerForParts .rightPart .imgBanner {
+  width: 100%;
+  bottom: 20px;
+  right: 0;
+}
+.containerForParts .rightPart .panelRightTop {
+  max-height: 360px;
+  max-width: 165px;
+  height: 52vw;
+  width: 25vw;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 40px 32px 60px 32px;
+  border-radius: 20px;
+  background-color: #8b57c2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 700px) {
+  .containerForParts .rightPart .panelRightTop {
+    padding: 30px 12px 30px 12px;
+  }
+}
+@media (max-width: 500px) {
+  .containerForParts .rightPart .panelRightTop {
+    padding: 15px 12px 15px 12px;
+  }
+}
+.containerForParts .rightPart .panelRightTop h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+@media (max-width: 700px) {
+  .containerForParts .rightPart .panelRightTop h5 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) {
+  .containerForParts .rightPart .panelRightTop h5 {
+    margin-bottom: 10px;
+  }
+}
+.containerForParts .rightPart .panelRightTop img {
+  width: 72px;
+  max-width: 75%;
+}
+@media (max-width: 400px) {
+  .containerForParts .rightPart .panelRightTop img {
+    width: 40px;
+  }
+}
+.containerForParts .rightPart .panelRightTop .secondImg {
+  position: relative;
+  top: -28px;
+}
+@media (max-width: 400px) {
+  .containerForParts .rightPart .panelRightTop .secondImg {
+    top: -15px;
+  }
+}
+.containerForParts .rightPart .panelRightTop img:last-child {
+  position: relative;
+  top: -56px;
+}
+@media (max-width: 400px) {
+  .containerForParts .rightPart .panelRightTop img:last-child {
+    top: -30px;
+  }
+}
+
+/*# sourceMappingURL=rightPart.css.map */

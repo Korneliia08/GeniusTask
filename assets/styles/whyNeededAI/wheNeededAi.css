@@ -1,0 +1,113 @@
+.whyNeededAI {
+  display: flex;
+  margin-top: 120px;
+  height: 750px;
+  font-size: 1rem;
+}
+@media (max-width: 1200px) {
+  .whyNeededAI {
+    flex-direction: column-reverse;
+    height: auto;
+    row-gap: 20px;
+    margin-top: 30px;
+  }
+}
+.whyNeededAI .containerForImages {
+  position: relative;
+  width: 50%;
+}
+@media (max-width: 1200px) {
+  .whyNeededAI .containerForImages {
+    width: 100%;
+    min-height: clamp(100px, 105vw, 750px);
+  }
+}
+@media (max-width: 600px) {
+  .whyNeededAI .containerForImages {
+    width: 100%;
+    min-height: clamp(100px, 115vw, 750px);
+  }
+}
+.whyNeededAI .containerForImages .smallImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@media (max-width: 400px) {
+  .whyNeededAI .containerForImages .smallImg {
+    max-width: 20%;
+    left: 40px;
+    top: 40px;
+  }
+}
+.whyNeededAI .containerForImages .backgroundImg {
+  position: absolute;
+  left: 80px;
+  top: 100px;
+}
+@media (max-width: 1200px) {
+  .whyNeededAI .containerForImages .backgroundImg {
+    max-width: 60%;
+    left: 80px;
+    top: 90px;
+  }
+}
+.whyNeededAI .containerForImages .mainImg {
+  position: absolute;
+  left: 120px;
+  top: 170px;
+}
+@media (max-width: 1200px) {
+  .whyNeededAI .containerForImages .mainImg {
+    max-width: 60%;
+    left: 120px;
+    top: 160px;
+  }
+}
+.whyNeededAI .containerForContent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1200px) {
+  .whyNeededAI .containerForContent {
+    width: 100%;
+  }
+}
+.whyNeededAI .containerForContent h2 {
+  font-size: 3em;
+  line-height: 60px;
+  width: 460px;
+  max-width: 99%;
+}
+.whyNeededAI .containerForContent h2 .fioletColor {
+  color: #8b57c2;
+}
+@media (max-width: 700px) {
+  .whyNeededAI .containerForContent h2 {
+    font-size: 32px;
+    line-height: initial;
+  }
+}
+.whyNeededAI .containerForContent h3 {
+  margin-top: 20px;
+  line-height: 32px;
+  font-size: 1.75em;
+}
+@media (max-width: 700px) {
+  .whyNeededAI .containerForContent h3 {
+    font-size: 20px;
+  }
+}
+.whyNeededAI .containerForContent p {
+  margin-top: 24px;
+  font-size: 1.25em;
+  line-height: 26px;
+}
+.whyNeededAI .containerForContent p br {
+  content: "";
+  margin-top: 20px;
+  display: block;
+}
+
+/*# sourceMappingURL=wheNeededAi.css.map */

@@ -1,0 +1,35 @@
+.wrapper .innerWrapper.trainingPrograms {
+  margin-bottom: 120px;
+  .panelsContainer {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    @media (max-width: 1200px) {
+      flex-wrap: wrap;
+      row-gap: 20px;
+    }
+    img {
+      @media (max-width: 800px) {
+
+        width: 145px;
+      }
+    }
+  }
+  h3.sectionTitle {
+    margin-bottom: 32px;
+    @media (max-width: 700px) {
+      font-size: 28px;
+      line-height: initial;
+    }
+  }
+  h4 {
+    font-size: 1.25rem;
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: lighter;
+    width: 100%;
+    @media (max-width: 700px) {
+      font-size: 16px;
+    }
+  }
+}

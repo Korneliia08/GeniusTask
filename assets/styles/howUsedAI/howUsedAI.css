@@ -1,0 +1,115 @@
+.howUsedAI {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 95px;
+  font-size: 1rem;
+}
+.howUsedAI .sectionTitle {
+  margin-bottom: 32px;
+}
+@media (max-width: 800px) {
+  .howUsedAI .sectionTitle {
+    font-size: 28px;
+    line-height: initial;
+  }
+}
+@media (max-width: 800px) {
+  .howUsedAI {
+    margin-bottom: 15px;
+  }
+}
+.howUsedAI .containerForDescription {
+  display: flex;
+  justify-content: center;
+}
+.howUsedAI .containerForDescription .sectionDescription {
+  margin-bottom: 40px;
+  text-align: center;
+  max-width: 877px;
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 1.25em;
+}
+.howUsedAI .containerForCards {
+  column-gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1200px) {
+  .howUsedAI .containerForCards {
+    margin-bottom: 25px;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+.howUsedAI .containerForCards .card {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px;
+  row-gap: 18px;
+  max-width: 400px;
+  background-image: url("./../../images/howUsedAI/fioletBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 32px;
+}
+@media (max-width: 1200px) {
+  .howUsedAI .containerForCards .card {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.howUsedAI .containerForCards .card .image {
+  width: 48px;
+  height: 48px;
+}
+.howUsedAI .containerForCards .card .title {
+  line-height: 26px;
+  font-weight: 700;
+  color: #8b57c2;
+  font-size: 1.25em;
+}
+.howUsedAI .containerForCards .card .description {
+  line-height: 18px;
+  font-weight: 400;
+  font-size: 1.185em;
+}
+.howUsedAI .summaryBlock {
+  margin: 95px 0 140px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  .howUsedAI .summaryBlock {
+    margin: 45px 0 40px 0;
+  }
+}
+@media (max-width: 700px) {
+  .howUsedAI .summaryBlock {
+    margin: 20px 0 10px 0;
+  }
+}
+.howUsedAI .summaryBlock .image {
+  position: absolute;
+  z-index: 1000;
+  max-width: 180px;
+}
+.howUsedAI .summaryBlock .content {
+  max-width: 895px;
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 1.25em;
+  text-align: center;
+  position: relative;
+  z-index: 2000;
+}
+@media (max-width: 700px) {
+  .howUsedAI .summaryBlock .content {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/*# sourceMappingURL=howUsedAI.css.map */

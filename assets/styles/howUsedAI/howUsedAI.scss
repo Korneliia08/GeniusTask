@@ -1,0 +1,100 @@
+.howUsedAI {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 95px;
+  font-size: 1rem;
+  .sectionTitle {
+    margin-bottom: 32px;
+    @media (max-width: 800px) {
+      font-size: 28px;
+      line-height: initial;
+    }
+  }
+  @media (max-width: 800px) {
+    margin-bottom: 15px;
+  }
+  .containerForDescription {
+    display: flex;
+    justify-content: center;
+    .sectionDescription {
+      margin-bottom: 40px;
+      text-align: center;
+      max-width: 877px;
+      font-weight: 400;
+      line-height: 26px;
+      font-size: 1.25em;
+    }
+  }
+
+  .containerForCards {
+    column-gap: 20px;
+    display: flex;
+    justify-content: center;
+    @media (max-width: 1200px) {
+      margin-bottom: 25px;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      padding: 40px 40px;
+      row-gap: 18px;
+      max-width: 400px;
+      background-image: url("./../../images/howUsedAI/fioletBackground.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 32px;
+      @media (max-width: 1200px) {
+        max-width: 100%;
+        width: 100%;
+      }
+      .image {
+        width: 48px;
+        height: 48px;
+      }
+      .title {
+        line-height: 26px;
+        font-weight: 700;
+        color: #8b57c2;
+        font-size: 1.25em;
+      }
+      .description {
+        line-height: 18px;
+        font-weight: 400;
+        font-size: 1.185em;
+      }
+    }
+  }
+  .summaryBlock {
+    margin: 95px 0 140px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    @media (max-width: 1200px) {
+      margin: 45px 0 40px 0;
+    }
+    @media (max-width: 700px) {
+      margin: 20px 0 10px 0;
+    }
+    .image {
+      position: absolute;
+      z-index: 1000;
+      max-width: 180px;
+    }
+    .content {
+      max-width: 895px;
+      font-weight: 400;
+      line-height: 25px;
+      font-size: 1.25em;
+      text-align: center;
+      position: relative;
+      z-index: 2000;
+      @media (max-width: 700px) {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+}

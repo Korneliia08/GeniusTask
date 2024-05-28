@@ -1,0 +1,114 @@
+.wrapper .innerWrapper.footer {
+  padding-top: 120px;
+  @media (max-width: 1200px) {
+    text-align: center;
+  }
+  .partTop {
+    padding-bottom: 82px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    @media (max-width: 1200px) {
+      padding-bottom: 10px;
+      flex-direction: column;
+    }
+    @media (max-width: 800px) {
+      flex-wrap: wrap;
+    }
+    .leftPart {
+      .logo {
+        img {
+          &:hover {
+            cursor: pointer;
+          }
+          margin-bottom: 32px;
+          width: 84px;
+        }
+      }
+
+      .information {
+        margin-bottom: 32px;
+      }
+
+      .socialMedias {
+        @media (max-width: 500px) {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+        }
+        img {
+          margin-right: 23px;
+          @media (max-width: 500px) {
+            margin-right: 0px;
+          }
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .centerPart {
+      display: flex;
+      flex-direction: column;
+      @media (max-width: 1200px) {
+        display: none;
+      }
+      h5 {
+        padding-bottom: 20px;
+      }
+      .partContainer {
+        display: flex;
+        column-gap: 30px;
+        .leftLinks,
+        .rightLinks {
+          display: flex;
+          flex-direction: column;
+          row-gap: 12px;
+          a {
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+        .leftLinks {
+        }
+        .rightLinks {
+        }
+      }
+    }
+
+    .rightPart {
+      h5 {
+        padding-bottom: 5px;
+        @media (max-width: 1200px) {
+          display: none;
+        }
+      }
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+      @media (max-width: 1200px) {
+        width: 100%;
+        padding: 20px;
+      }
+      .linkContainer {
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+        @media (max-width: 1200px) {
+          width: 100%;
+
+          display: flex;
+          justify-content: center;
+        }
+        a {
+          color: #e1e1e1;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

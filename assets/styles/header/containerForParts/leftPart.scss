@@ -1,0 +1,116 @@
+.containerForParts .leftPart {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  max-width: 100%;
+  @media (max-width: 1200px) {
+    padding-top: 40px;
+    width: 100%;
+  }
+  @media (max-width: 700px) {
+    padding-top: 23px;
+  }
+  button {
+    width: 220px;
+  }
+
+  .containerForInformations {
+    display: flex;
+    margin-bottom: 70px;
+    column-gap: 24px;
+
+    .blockOfInformation {
+      display: flex;
+      align-items: center;
+      column-gap: 6px;
+      @media (max-width: 600px) {
+        &:last-child {
+          display: none;
+        }
+      }
+      .icon {
+      }
+
+      span {
+        font-size: 0.95em;
+        line-height: 17px;
+      }
+    }
+  }
+
+  .containerForTitle {
+    display: flex;
+    h1.title {
+      font-size: 170px;
+      line-height: 45px;
+      @media (max-width: 700px) {
+        font-size: 120px;
+        line-height: 35px;
+      }
+      span.titlePartTwo {
+        line-height: initial;
+        font-size: 44px;
+        @media (max-width: 700px) {
+          font-size: 30px;
+        }
+      }
+    }
+    img {
+      width: 280px;
+    }
+
+    .titleDescription {
+      left: -30px;
+      width: 225px;
+      position: relative;
+      font-size: 1em;
+      @media (max-width: 500px) {
+        left: -20px;
+      }
+    }
+  }
+
+  .containerForRating {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+
+    .containerForStars {
+      margin-right: 20px;
+      overflow-x: hidden;
+      width: 111px;
+      display: flex;
+
+      .iconOfStar {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    span {
+      font-size: 1.1em;
+
+      .boldSpan {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .content {
+    margin: 60px 0;
+    width: 500px;
+    font-size: 1.6em;
+    max-width: 100%;
+    @media (max-width: 800px) {
+      font-size: 16px;
+    }
+    @media (max-width: 700px) {
+      margin: 20px 0;
+    }
+  }
+
+  .spanHowMuchIsLeft {
+    margin-top: 12px;
+  }
+}

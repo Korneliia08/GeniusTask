@@ -1,0 +1,116 @@
+.wrapper .innerWrapper.howIsGoingTraining {
+  background-color: #212121;
+  padding: 80px 100px;
+  margin-bottom: 120px;
+  border-radius: 30px;
+  @media (max-width: 1100px) {
+    padding: 40px 60px;
+  }
+  @media (max-width: 700px) {
+    padding: 30px 20px;
+    margin-bottom: 40px;
+  }
+  .sectionTitle {
+    margin-bottom: 60px;
+    @media (max-width: 700px) {
+      margin-bottom: 40px;
+      font-size: 28px;
+      line-height: 35px;
+    }
+  }
+  .containerForBlocks {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    position: relative;
+    &:before {
+      height: 2px;
+      width: 75%;
+      background-color: #8b57c2;
+      content: "";
+      z-index: 9;
+      position: absolute;
+      top: 60px;
+    }
+    @media (max-width: 1100px) {
+      flex-direction: column;
+      width: 100%;
+      row-gap: 40px;
+
+      &:before {
+        height: 75%;
+        width: 2px;
+
+        left: 43px;
+
+        top: 30px;
+        @media (max-width: 700px) {
+          left: 23px;
+        }
+      }
+      @media (max-width: 700px) {
+        row-gap: 34px;
+      }
+    }
+    .block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 30px;
+      max-width: 280px;
+      @media (max-width: 1100px) {
+        flex-direction: row;
+        max-width: 95%;
+        width: 100%;
+        align-items: flex-start;
+        column-gap: 12px;
+      }
+      @media (max-width: 700px) {
+        row-gap: 8px;
+      }
+      .image {
+        width: 130px;
+        position: relative;
+        z-index: 10;
+        @media (max-width: 1100px) {
+          width: 90px;
+        }
+        @media (max-width: 700px) {
+          width: 50px;
+        }
+      }
+      .container {
+        display: contents;
+        @media (max-width: 1100px) {
+          flex-direction: column;
+          display: flex;
+        }
+        .titleOfBlock,
+        .description {
+          line-height: 26px;
+          text-align: center;
+          @media (max-width: 1100px) {
+            text-align: left;
+          }
+        }
+        .titleOfBlock {
+          font-weight: 700;
+          font-size: 1.25em;
+          line-height: 60px;
+          @media (max-width: 700px) {
+            font-size: 17px;
+            line-height: 30px;
+          }
+        }
+        .description {
+          font-weight: 400;
+          font-size: 1.125em;
+          color: #e1e1e1;
+          @media (max-width: 700px) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

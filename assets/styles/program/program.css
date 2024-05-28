@@ -1,0 +1,186 @@
+.programWrapper {
+  background-color: white;
+  padding: 120px 106px;
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .programWrapper {
+    padding: 80px 82px;
+  }
+}
+@media (max-width: 700px) {
+  .programWrapper {
+    padding: 50px 20px;
+    width: calc(100% - 40px);
+  }
+}
+@media (max-width: 400px) {
+  .programWrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% - 20px);
+  }
+}
+.programWrapper .program {
+  column-gap: 23px;
+  display: flex;
+}
+.programWrapper .program .leftPart {
+  height: 852px;
+  width: 500px;
+  border-width: 1px 6px 1px 1px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  .programWrapper .program .leftPart {
+    width: 100%;
+  }
+}
+.programWrapper .program .leftPart .scroll {
+  border-right: 6px solid #b4b4b4;
+  position: absolute;
+  top: 0;
+  right: -6px;
+  height: 306px;
+  width: 0px;
+}
+.programWrapper .program .leftPart .rows {
+  height: 852px;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.programWrapper .program .leftPart .rows::-webkit-scrollbar {
+  display: none;
+}
+.programWrapper .program .leftPart .rows .row {
+  width: calc(100% - 66px);
+  min-height: 88px;
+  display: flex;
+  padding-right: 66px;
+  box-sizing: content-box;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  align-items: center;
+}
+.programWrapper .program .leftPart .rows .row .number {
+  border-radius: 50px;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  background: #8b57c2;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-weight: 700;
+  color: white;
+}
+.programWrapper .program .leftPart .rows .row span {
+  color: black;
+}
+.programWrapper .program .leftPart .rows .row.selected {
+  color: black;
+  font-weight: 700;
+  background: #e7daf5;
+}
+.programWrapper .program .openRow {
+  display: none;
+  padding: 20px;
+}
+@media (max-width: 1200px) {
+  .programWrapper .program .openRow {
+    display: block;
+  }
+}
+.programWrapper .program .openRow h3 {
+  color: black;
+}
+.programWrapper .program .openRow ul {
+  padding-bottom: 15px;
+}
+.programWrapper .program .openRow ul li {
+  color: black;
+  padding-left: 15px;
+  margin-left: 0;
+  list-style-image: url("../../../assets/icons/smallIcons/Rectangle.svg");
+}
+.programWrapper .program .openRow .part2 {
+  background: #ebebeb;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+.programWrapper .program .openRow .part2 h4 {
+  font-size: 0.875rem;
+  color: black;
+  padding-bottom: 20px;
+}
+.programWrapper .program .openRow .part2 p {
+  color: black;
+  font-size: 0.875rem;
+}
+@media (max-width: 700px) {
+  .programWrapper .program .openRow button {
+    width: 100%;
+  }
+}
+.programWrapper .program .rightPart {
+  max-width: 706px;
+  padding: 32px;
+  width: 100%;
+  height: 852px;
+  border: 1px solid #e6e6e6;
+}
+@media (max-width: 1200px) {
+  .programWrapper .program .rightPart.desktop {
+    display: none;
+  }
+}
+.programWrapper .program .rightPart h3 {
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.programWrapper .program .rightPart .part1 {
+  display: flex;
+}
+.programWrapper .program .rightPart .part1 .left,
+.programWrapper .program .rightPart .part1 .right {
+  width: 50%;
+  padding-top: 32px;
+}
+.programWrapper .program .rightPart .part1 .left ul,
+.programWrapper .program .rightPart .part1 .right ul {
+  padding-left: 15px;
+  margin-left: 0;
+  list-style-image: url("../../../assets/icons/smallIcons/Rectangle.svg");
+}
+.programWrapper .program .rightPart .part1 .left ul li,
+.programWrapper .program .rightPart .part1 .right ul li {
+  color: black;
+  padding-bottom: 20px;
+}
+.programWrapper .program .rightPart .part2 {
+  background: #ebebeb;
+  padding: 20px 63px;
+}
+.programWrapper .program .rightPart .part2 h4 {
+  font-size: 0.875rem;
+  color: black;
+  padding-bottom: 20px;
+}
+.programWrapper .program .rightPart .part2 p {
+  color: black;
+  font-size: 0.875rem;
+}
+.programWrapper .program .rightPart button {
+  width: 223px;
+  height: 42px;
+  margin-top: 32px;
+}
+
+/*# sourceMappingURL=program.css.map */

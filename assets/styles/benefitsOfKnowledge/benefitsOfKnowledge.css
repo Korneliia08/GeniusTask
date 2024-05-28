@@ -1,0 +1,99 @@
+.wrapper .innerWrapper.benefitsOfKnowledge {
+  display: flex;
+  font-size: 1rem;
+  background-image: url("../../images/benefitsOfKnowledge/fioletBackground.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 32px;
+  padding: 80px 100px;
+  box-sizing: border-box;
+  column-gap: 120px;
+}
+@media (max-width: 1230px) {
+  .wrapper .innerWrapper.benefitsOfKnowledge {
+    flex-direction: column;
+    padding: 40px 40px;
+  }
+}
+@media (max-width: 700px) {
+  .wrapper .innerWrapper.benefitsOfKnowledge {
+    padding: 30px 20px;
+  }
+}
+.wrapper .innerWrapper.benefitsOfKnowledge .leftPart {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+}
+.wrapper .innerWrapper.benefitsOfKnowledge .leftPart h2 {
+  line-height: 60px;
+  font-size: 3em;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+@media (max-width: 700px) {
+  .wrapper .innerWrapper.benefitsOfKnowledge .leftPart h2 {
+    width: 100%;
+    font-size: 2.3em;
+    margin-bottom: 16px;
+    line-height: 35px;
+  }
+}
+.wrapper .innerWrapper.benefitsOfKnowledge .leftPart h2 .fioletColor {
+  color: #8b57c2;
+}
+.wrapper .innerWrapper.benefitsOfKnowledge .leftPart ul {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .innerWrapper.benefitsOfKnowledge .leftPart ul li {
+  list-style-image: url("../../../assets/icons/smallIcons/fioletStar.svg");
+  padding-bottom: 25px;
+  line-height: 1.625rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.wrapper .innerWrapper.benefitsOfKnowledge .rightPart {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.wrapper .innerWrapper.benefitsOfKnowledge .rightPart h3 {
+  line-height: 25px;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+.wrapper .innerWrapper.benefitsOfKnowledge .rightPart .containerForBlocks {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.wrapper .innerWrapper.benefitsOfKnowledge .rightPart .containerForBlocks .blockForDescription {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+}
+@media (max-width: 400px) {
+  .wrapper .innerWrapper.benefitsOfKnowledge .rightPart .containerForBlocks .blockForDescription {
+    column-gap: 10px;
+  }
+}
+.wrapper .innerWrapper.benefitsOfKnowledge .rightPart .containerForBlocks .blockForDescription img {
+  width: 64px;
+  height: 64px;
+}
+@media (max-width: 400px) {
+  .wrapper .innerWrapper.benefitsOfKnowledge .rightPart .containerForBlocks .blockForDescription img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.wrapper .innerWrapper.benefitsOfKnowledge .rightPart .containerForBlocks .blockForDescription span {
+  line-height: 18px;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=benefitsOfKnowledge.css.map */

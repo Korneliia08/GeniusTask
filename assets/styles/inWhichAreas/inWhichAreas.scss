@@ -1,0 +1,133 @@
+.sectionInWhichAreas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  font-size: 1rem;
+  .titleOfSection {
+    text-align: center;
+    line-height: 70px;
+    font-size: 4em;
+    @media (max-width: 700px) {
+      font-size: 28px;
+      line-height: 30px;
+    }
+    font-weight: 700;
+    .fioletColor {
+      color: #8b57c2;
+    }
+  }
+  .blockForDescription {
+    display: flex;
+    justify-content: center;
+    .descriptionOfSection {
+      text-align: center;
+      margin-top: 32px;
+      font-weight: 400;
+      font-size: 1.5em;
+      max-width: 600px;
+      @media (max-width: 720px) {
+        margin-top: 24px;
+      }
+    }
+  }
+
+  .containerForAreas {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 20px;
+    @media (max-width: 1000px) {
+      flex-direction: column;
+    }
+    @media (max-width: 720px) {
+      margin-top: 46px;
+    }
+    .blockOfArea {
+      width: 48%;
+      background-image: url("./../../images/inWhichAreas/fioletBackgroundReverse.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      column-gap: 32px;
+      @media (max-width: 1000px) {
+        width: 100%;
+        padding: 40px 35px;
+      }
+      @media (max-width: 700px) {
+        width: 100%;
+        padding: 30px 20px 20px 20px;
+        min-height: 153px;
+        align-items: flex-start;
+        column-gap: 16px;
+      }
+      img {
+        width: 48px;
+        @media (max-width: 400px) {
+          width: 40px;
+        }
+      }
+      .blockForTitleAndContent {
+        display: flex;
+        flex-direction: column;
+        .title {
+          margin-bottom: 12px;
+          font-size: 1.625rem;
+          @media (max-width: 720px) {
+            font-size: 16px;
+          }
+        }
+        .description {
+          line-height: 17.57px;
+          font-size: 0.875rem;
+          span {
+            font-weight: 700;
+          }
+          @media (max-width: 720px) {
+            font-size: 14px;
+            line-height: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .blockForSummary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+    @media (max-width: 1000px) {
+      width: 100%;
+    }
+    @media (max-width: 700px) {
+      margin-top: 82px;
+      font-size: 16px;
+    }
+    position: relative;
+    .bubbleImg {
+      position: absolute;
+      z-index: 1000;
+      @media (max-width: 1000px) {
+        width: 240px;
+      }
+    }
+    .bottomSummary {
+      position: relative;
+      z-index: 2000;
+      max-width: 920px;
+      text-align: center;
+      font-weight: 400;
+      line-height: 30px;
+      font-size: 1.5em;
+      @media (max-width: 700px) {
+        font-size: 1.3rem;
+        line-height: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+  .footer {
+    text-align: center;
+  }
+}
+.footer .bootomBelt {
+  border-top: 1px solid #414141;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+@media (max-width: 1200px) {
+  .footer .bootomBelt {
+    justify-content: center;
+    row-gap: 23px;
+    flex-direction: column;
+  }
+  .footer .bootomBelt span {
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .footer .bootomBelt {
+    flex-wrap: wrap;
+  }
+}
+.footer .bootomBelt .authorContent {
+  font-weight: 700;
+}
+.footer .bootomBelt a {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 10px;
+}
+@media (max-width: 1200px) {
+  .footer .bootomBelt a {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=bottomBelt.css.map */

@@ -1,0 +1,136 @@
+.wrapper.wrapperMargin.whatSayingStudentsWrapper .darker {
+  opacity: 0.5;
+  width: 225px;
+}
+@media (max-width: 1250px) {
+  .wrapper.wrapperMargin.whatSayingStudentsWrapper {
+    margin-right: 0;
+    width: calc(100% - 82px);
+  }
+  .wrapper.wrapperMargin.whatSayingStudentsWrapper .darker {
+    opacity: 1;
+  }
+}
+@media (max-width: 700px) {
+  .wrapper.wrapperMargin.whatSayingStudentsWrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 20px);
+  }
+}
+@media (max-width: 400px) {
+  .wrapper.wrapperMargin.whatSayingStudentsWrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(100% - 10px);
+  }
+}
+
+.whatSayingStudents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 120px;
+}
+@media (max-width: 1250px) {
+  .whatSayingStudents {
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .whatSayingStudents::-webkit-scrollbar {
+    display: none;
+  }
+}
+.whatSayingStudents h2 {
+  margin-bottom: 230px;
+  font-size: 3em;
+  max-width: 690px;
+  text-align: center;
+}
+@media (max-width: 1250px) {
+  .whatSayingStudents h2 {
+    margin-bottom: 60px;
+  }
+}
+.whatSayingStudents .paginationContainer {
+  display: none;
+}
+@media (max-width: 1250px) {
+  .whatSayingStudents .paginationContainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+.whatSayingStudents .paginationContainer .pagiantion {
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+  column-gap: 20px;
+}
+.whatSayingStudents .paginationContainer .pagiantion > div {
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  background-color: #afafaf;
+}
+.whatSayingStudents .paginationContainer .pagiantion > div:first-child {
+  background-color: #8b57c2;
+}
+.whatSayingStudents .containerForCards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2000;
+  column-gap: 10px;
+}
+@media (max-width: 1250px) {
+  .whatSayingStudents .containerForCards {
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .whatSayingStudents .containerForCards::-webkit-scrollbar {
+    display: none;
+  }
+}
+.whatSayingStudents .containerForCards .containerForOneImg {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 5000;
+  justify-content: center;
+}
+@media (max-width: 1250px) {
+  .whatSayingStudents .containerForCards .containerForOneImg {
+    display: none;
+  }
+}
+.whatSayingStudents .containerForCards .containerForOneImg .mainImg {
+  position: absolute;
+  top: -170px;
+  width: 390px;
+}
+@media (max-width: 1250px) {
+  .whatSayingStudents .containerForCards .containerForOneImg .mainImg {
+    display: none;
+  }
+}
+@media (max-width: 1250px) {
+  .whatSayingStudents .containerForCards {
+    justify-content: flex-start;
+  }
+}
+.whatSayingStudents .btnToBeSpecialist {
+  margin-top: 250px;
+}
+@media (max-width: 1250px) {
+  .whatSayingStudents .btnToBeSpecialist {
+    margin-top: 160px;
+  }
+}
+
+/*# sourceMappingURL=whatSayingStudets.css.map */

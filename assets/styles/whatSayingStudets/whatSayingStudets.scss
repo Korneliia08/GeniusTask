@@ -1,0 +1,118 @@
+.wrapper.wrapperMargin.whatSayingStudentsWrapper {
+  .darker {
+    opacity: 0.5;
+    width: 225px;
+  }
+  @media (max-width: 1250px) {
+    margin-right: 0;
+    width: calc(100% - 82px);
+    .darker {
+      opacity: 1;
+    }
+  }
+  @media (max-width: 700px) {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 20px);
+  }
+  @media (max-width: 400px) {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(100% - 10px);
+  }
+}
+
+.whatSayingStudents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 120px;
+  @media (max-width: 1250px) {
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  h2 {
+    margin-bottom: 230px;
+    font-size: 3em;
+    max-width: 690px;
+    text-align: center;
+    @media (max-width: 1250px) {
+      margin-bottom: 60px;
+    }
+  }
+
+  .paginationContainer {
+    display: none;
+    @media (max-width: 1250px) {
+      display: flex;
+      justify-content: center;
+    }
+    .pagiantion {
+      display: flex;
+      padding-top: 40px;
+      justify-content: center;
+      column-gap: 20px;
+
+      & > div {
+        border-radius: 50%;
+        height: 12px;
+        width: 12px;
+        background-color: #afafaf;
+        &:first-child {
+          background-color: #8b57c2;
+        }
+      }
+    }
+  }
+  .containerForCards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2000;
+    column-gap: 10px;
+    @media (max-width: 1250px) {
+      overflow-y: hidden;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    .containerForOneImg {
+      display: flex;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 5000;
+      justify-content: center;
+      @media (max-width: 1250px) {
+        display: none;
+      }
+      .mainImg {
+        position: absolute;
+        top: -170px;
+        width: 390px;
+        @media (max-width: 1250px) {
+          display: none;
+        }
+      }
+    }
+    @media (max-width: 1250px) {
+      justify-content: flex-start;
+    }
+  }
+  .btnToBeSpecialist {
+    margin-top: 250px;
+    @media (max-width: 1250px) {
+      margin-top: 160px;
+    }
+  }
+}

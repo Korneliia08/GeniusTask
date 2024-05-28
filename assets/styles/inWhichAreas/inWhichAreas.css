@@ -1,0 +1,159 @@
+.sectionInWhichAreas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  font-size: 1rem;
+}
+.sectionInWhichAreas .titleOfSection {
+  text-align: center;
+  line-height: 70px;
+  font-size: 4em;
+  font-weight: 700;
+}
+@media (max-width: 700px) {
+  .sectionInWhichAreas .titleOfSection {
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
+.sectionInWhichAreas .titleOfSection .fioletColor {
+  color: #8b57c2;
+}
+.sectionInWhichAreas .blockForDescription {
+  display: flex;
+  justify-content: center;
+}
+.sectionInWhichAreas .blockForDescription .descriptionOfSection {
+  text-align: center;
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 1.5em;
+  max-width: 600px;
+}
+@media (max-width: 720px) {
+  .sectionInWhichAreas .blockForDescription .descriptionOfSection {
+    margin-top: 24px;
+  }
+}
+.sectionInWhichAreas .containerForAreas {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+@media (max-width: 1000px) {
+  .sectionInWhichAreas .containerForAreas {
+    flex-direction: column;
+  }
+}
+@media (max-width: 720px) {
+  .sectionInWhichAreas .containerForAreas {
+    margin-top: 46px;
+  }
+}
+.sectionInWhichAreas .containerForAreas .blockOfArea {
+  width: 48%;
+  background-image: url("./../../images/inWhichAreas/fioletBackgroundReverse.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  column-gap: 32px;
+}
+@media (max-width: 1000px) {
+  .sectionInWhichAreas .containerForAreas .blockOfArea {
+    width: 100%;
+    padding: 40px 35px;
+  }
+}
+@media (max-width: 700px) {
+  .sectionInWhichAreas .containerForAreas .blockOfArea {
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+    min-height: 153px;
+    align-items: flex-start;
+    column-gap: 16px;
+  }
+}
+.sectionInWhichAreas .containerForAreas .blockOfArea img {
+  width: 48px;
+}
+@media (max-width: 400px) {
+  .sectionInWhichAreas .containerForAreas .blockOfArea img {
+    width: 40px;
+  }
+}
+.sectionInWhichAreas .containerForAreas .blockOfArea .blockForTitleAndContent {
+  display: flex;
+  flex-direction: column;
+}
+.sectionInWhichAreas .containerForAreas .blockOfArea .blockForTitleAndContent .title {
+  margin-bottom: 12px;
+  font-size: 1.625rem;
+}
+@media (max-width: 720px) {
+  .sectionInWhichAreas .containerForAreas .blockOfArea .blockForTitleAndContent .title {
+    font-size: 16px;
+  }
+}
+.sectionInWhichAreas .containerForAreas .blockOfArea .blockForTitleAndContent .description {
+  line-height: 17.57px;
+  font-size: 0.875rem;
+}
+.sectionInWhichAreas .containerForAreas .blockOfArea .blockForTitleAndContent .description span {
+  font-weight: 700;
+}
+@media (max-width: 720px) {
+  .sectionInWhichAreas .containerForAreas .blockOfArea .blockForTitleAndContent .description {
+    font-size: 14px;
+    line-height: 15px;
+  }
+}
+.sectionInWhichAreas .blockForSummary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 105px;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .sectionInWhichAreas .blockForSummary {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .sectionInWhichAreas .blockForSummary {
+    margin-top: 82px;
+    font-size: 16px;
+  }
+}
+.sectionInWhichAreas .blockForSummary .bubbleImg {
+  position: absolute;
+  z-index: 1000;
+}
+@media (max-width: 1000px) {
+  .sectionInWhichAreas .blockForSummary .bubbleImg {
+    width: 240px;
+  }
+}
+.sectionInWhichAreas .blockForSummary .bottomSummary {
+  position: relative;
+  z-index: 2000;
+  max-width: 920px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 1.5em;
+}
+@media (max-width: 700px) {
+  .sectionInWhichAreas .blockForSummary .bottomSummary {
+    font-size: 1.3rem;
+    line-height: 20px;
+  }
+}
+
+/*# sourceMappingURL=inWhichAreas.css.map */
