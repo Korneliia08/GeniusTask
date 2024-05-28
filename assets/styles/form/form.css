@@ -186,7 +186,7 @@
   .wrapper .innerWrapper.form .rightPart .formBlock .discount {
     width: 130px;
     top: -30px;
-    right: 20px;
+    right: -5px;
   }
 }
 .wrapper .innerWrapper.form .rightPart .formBlock .discountText {
