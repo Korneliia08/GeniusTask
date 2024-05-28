@@ -17,6 +17,7 @@
     flex-direction: column;
     @media (max-width: 1200px) {
       align-items: center;
+      width: 100%;
     }
     .topBelt {
       align-items: center;
@@ -127,6 +128,7 @@
       display: flex;
       padding: 50px 0;
       justify-content: center;
+      width: 100%;
     }
     .formBlock {
       max-width: 604px;
@@ -159,7 +161,7 @@
         @media (max-width: 700px) {
           width: 130px;
           top: -30px;
-          right: -20px;
+          right: -5px;
         }
       }
       .discountText {
@@ -168,7 +170,7 @@
         position: absolute;
         @media (max-width: 700px) {
           width: 60px;
-          right: 10px;
+          right: 20px;
           top: -2px;
         }
       }
